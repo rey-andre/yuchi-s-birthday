@@ -28,56 +28,76 @@
   </head>
 
   <body onclick="play();">
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    <div class="clouds"></div>
     <audio autoplay id="audio">
-      <source src="Pesawat Kertas 365 Hari - JKT 48 (Acoustic Version by Sisca) Lirik _ hidup bagaikan pesawat kertas.mp3" type="audio/mp3" />
+      <!-- <source src="Pesawat Kertas 365 Hari - JKT 48 (Acoustic Version by Sisca) Lirik _ hidup bagaikan pesawat kertas.mp3" type="audio/mp3" /> -->
     </audio>
-    <div class="container-fluid">
-      <div class="col-12 text-center mx-auto">
-        <h0 class="mt-5"><b id="currentyear"></b></h0>
-        <h1 class="mt-5">Something...</h1>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row justify-content-center align-items-center">
-        <div class="col-lg-4 text-center my-5">
-          <div id="countdown" class="countdown">
-            <div class="row">
-              <div class="col-6">
-                <div class="time mx-auto">
-                  <h1 id="days">00</h1>
-                  <small class="mini d-block">Days</small>
-                </div>
-              </div>
-              <div class="col-6">
-                <div class="time mx-auto">
-                  <h1 id="hours">00</h1>
-                  <small class="mini d-block">Hours</small>
-                </div>
-              </div>
+
+    <div class="konten">
+      <div class="container-fluid">
+        <div class="col-12 text-center mx-auto">
+          <h0 class="mt-5"><b id="currentyear"></b></h0>
+          <!-- <h1 class="mt-5">Something...</h1> -->
+          <h1 style="font-size: 10px" class="mt-5">
+            <div class="waviy">
+              <span style="--i: 1">C</span>
+              <span style="--i: 2">o</span>
+              <span style="--i: 3">u</span>
+              <span style="--i: 4">n</span>
+              <span style="--i: 5">t</span>
+              <span style="--i: 6">d</span>
+              <span style="--i: 7">o</span>
+              <span style="--i: 8">w</span>
+              <span style="--i: 9">n</span>
+              <!-- <span style="--i: 10">N</span> -->
             </div>
-            <div class="row mt-4">
-              <div class="col-6">
-                <div class="time mx-auto">
-                  <h1 id="minutes">00</h1>
-                  <small class="mini d-block">Minutes</small>
+          </h1>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-4 text-center my-5">
+            <div id="countdown" class="countdown">
+              <div class="row">
+                <div class="col-6">
+                  <div class="time mx-auto">
+                    <h1 id="days">00</h1>
+                    <small class="mini d-block">Days</small>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="time mx-auto">
+                    <h1 id="hours">00</h1>
+                    <small class="mini d-block">Hours</small>
+                  </div>
                 </div>
               </div>
-              <div class="col-6">
-                <div class="time mx-auto">
-                  <h1 id="seconds">00</h1>
-                  <small class="mini d-block">Seconds</small>
+              <div class="row mt-4">
+                <div class="col-6">
+                  <div class="time mx-auto">
+                    <h1 id="minutes">00</h1>
+                    <small class="mini d-block">Minutes</small>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="time mx-auto">
+                    <h1 id="seconds">00</h1>
+                    <small class="mini d-block">Seconds</small>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="container-fluid">
-      <div class="col-12 text-center mx-auto">
-        <!-- <h6 class="my-2">
-          Made with <i class="fas fa-heart"></i> by <a href="https://sachinlohar.tech/" target="_blank"><b>Sachin Lohar</b></a>
-        </h6> -->
+      <div class="container-fluid">
+        <div class="col-12 text-center mx-auto">
+          <h6 class="my-2">
+            Made with <i class="fas fa-heart"></i> by <a href="https://sachinlohar.tech/" target="_blank"><b>Reynold Andre</b></a>
+          </h6>
+        </div>
       </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
