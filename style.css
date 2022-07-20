@@ -126,7 +126,8 @@ a:hover {
 }
 
 .clouds {
-  background: transparent url(clouds.png) repeat top center;
+  /* background: transparent url(clouds.png) repeat top center; */
+  background: transparent url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/clouds_repeat.png') repeat;
   z-index: 2;
   opacity: 0.4;
   animation: move-clouds-back 200s linear infinite;
@@ -136,4 +137,23 @@ a:hover {
   display: block;
   position: relative;
   z-index: 3;
+}
+
+.fa-heart {
+  color: pink;
+  font-size: 15px;
+  /* transform: translateY(5px); */
+  animation: kenyal 2s ease infinite;
+  cursor: pointer;
+}
+@keyframes kenyal {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
