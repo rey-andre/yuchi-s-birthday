@@ -8,7 +8,7 @@ const minutes = document.getElementById('minutes');
 const seconds = document.getElementById('seconds');
 const countDown = document.getElementById('countdown');
 const currentYear = new Date().getFullYear();
-const newYearTime = new Date(`July 25 ${currentYear} 00:00:00`);
+const newYearTime = new Date(`July 23 ${currentYear} 09:00:00`);
 document.getElementById('year').innerHTML = 'Hello Yuchi ^_^';
 // document.getElementById('currentyear').innerHTML = currentYear + 1;
 

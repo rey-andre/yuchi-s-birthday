@@ -151,7 +151,7 @@ p.wm a {
   right: 0;
   bottom: 0;
   width: 100vw;
-  height: 4000px;
+  height: 21500px;
   display: block;
 }
 
@@ -167,7 +167,8 @@ p.wm a {
 }
 
 .clouds {
-  background: transparent url(../clouds.png) repeat top center;
+  /* background: transparent url(../clouds.png) repeat top center; */
+  background: transparent url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/clouds_repeat.png') repeat;
   z-index: 2;
   opacity: 0.4;
   animation: move-clouds-back 200s linear infinite;
